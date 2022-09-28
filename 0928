@@ -1,0 +1,36 @@
+# 第一份作業:說明隱寫術 放在你的GITHUB
+- 隱寫術steganography
+- 駭客如何利用隱寫術
+  - [駭客藏匿惡意程式於詹姆斯·韋伯太空望遠鏡拍攝之影像中](https://www.nccst.nat.gov.tw/NewsRSSDetail?lang=zh&RSSType=news&seq=16784) 
+  - [Hackers hide malware in James Webb telescope images](https://www.bleepingcomputer.com/news/security/hackers-hide-malware-in-james-webb-telescope-images/)
+  - [New malware bundle self-spreads through YouTube gaming videos](https://www.bleepingcomputer.com/news/security/new-malware-bundle-self-spreads-through-youtube-gaming-videos/)
+  - [Hackers use PowerPoint files for 'mouseover' malware delivery](https://www.bleepingcomputer.com/news/security/hackers-use-powerpoint-files-for-mouseover-malware-delivery/)
+- 各種類型的隱寫術
+  - 圖片隱寫(Image Steganography)
+    - 將資訊保存再png.jpg.bmp等圖片格式中。
+    - 也可將圖片每一個畫素的RGB轉為二進制，再替換當中最後一位數，並使用ASCII表，將我們要隱藏的訊息先轉為十進制，再轉為二進制，最後替換每個畫素的最後一位數。
+    - 相關工具：QuickStego、Steghide、zsteg、HxD、CryptaPix、BinWalk
+  - 文件隱寫(Document Steganography)
+    - 可以將圖片or訊息隱藏在文件中。
+    - 相關工具：StegoStick、StegJ
+  - 影片隱寫(Video Steganography)
+    - 相關工具：OmniHide、StegoStick、OpenPuff
+  - 聲音隱寫(Audio Steganography)
+    - 相關工具：WavSteg、AudioStego、DeepSound
+  - 資料夾隱寫(Folder Steganography)
+  - 網頁隱寫(Web Steganography)
+  - 電子郵件隱寫(Email Steganography)
+  - 資料來源
+    - [【Day21】隱寫技術 Steganography](https://ithelp.ithome.com.tw/articles/10278407)
+    - [Day8: [Forensic] Steganography](https://ithelp.ithome.com.tw/articles/10219759)
+    - [The Ancient Practice of Steganography](https://www.comptia.org/blog/what-is-steganography)
+    - [Steganography@WIKI](https://en.wikipedia.org/wiki/Steganography)
+
+# 第二份作業: robots.txt的說明
+- 完成CTF  Web101|web-2: Easy_Robots.txt解題
+- 完成 google網站的robots.txt
+- 資料來源
+  - [robots.txt@WIKI](https://zh.wikipedia.org/zh-tw/Robots.txt) 
+  - [Google 如何解讀 robots.txt 規格](https://developers.google.com/search/docs/advanced/robots/robots_txt?hl=zh-tw)
+
+
